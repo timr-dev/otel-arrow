@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1781571358078,
-  "repoUrl": "https://github.com/open-telemetry/otel-arrow",
+  "lastUpdate": 1782274604630,
+  "repoUrl": "https://github.com/timr-dev/otel-arrow",
   "entries": {
     "Benchmark": [
       {
@@ -5164,6 +5164,38 @@ window.BENCHMARK_DATA = {
           {
             "name": "linux-arm64-binary-size",
             "value": 98.91,
+            "unit": "MB"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Lalit Kumar Bhasin",
+            "username": "lalitb",
+            "email": "lalit_fin@yahoo.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "e9fdd4fba3b685a6cffcfd6ff9d9f4a10bff2c3f",
+          "message": "chore: upgrade OpenTelemetry Rust dependencies to 0.32 (#3342)\n\n# Change Summary\n\nUpgrade OTAP Dataflow OpenTelemetry Rust dependencies to 0.32 and bump\nthe Geneva uploader pin to a compatible revision.\n\n\n## What issue does this PR close?\n\n\n* Closes #NNN\n\n## How are these changes tested?\n\n## Are there any user-facing changes?\n\nNo\n\n### Changelog\n\n\n * [x] This PR is a `chore` (indicated in title).\n\n---------\n\nCo-authored-by: Utkarsh Umesan Pillai <66651184+utpilla@users.noreply.github.com>\nCo-authored-by: Tom Tan <lilotom@gmail.com>",
+          "timestamp": "2026-06-23T17:18:10Z",
+          "url": "https://github.com/timr-dev/otel-arrow/commit/e9fdd4fba3b685a6cffcfd6ff9d9f4a10bff2c3f"
+        },
+        "date": 1782274591214,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "linux-amd64-binary-size",
+            "value": 111.43,
+            "unit": "MB"
+          },
+          {
+            "name": "linux-arm64-binary-size",
+            "value": 98.78,
             "unit": "MB"
           }
         ]
